@@ -1,0 +1,51 @@
+# === Global ===
+*.log
+*.tmp
+*.swp
+*.bak
+.DS_Store
+Thumbs.db
+
+# === Docker ===
+**/Dockerfile
+**/.dockerignore
+
+# === Maven / Java (for api-gateway and user-service) ===
+**/target/
+**/.mvn/
+**/build/
+**/*.class
+**/*.jar
+**/*.war
+**/*.ear
+**/*.iml
+
+# IDE files (IntelliJ, Eclipse)
+**/.idea/
+**/*.iws
+**/*.ipr
+**/*.iml
+**/.classpath
+**/.project
+**/.settings/
+
+# === Python (for product-service) ===
+product-service/__pycache__/
+product-service/*.py[cod]
+product-service/.venv/
+product-service/env/
+product-service/.env
+product-service/.env.*
+product-service/venv/
+product-service/.pytest_cache/
+product-service/*.egg-info/
+product-service/.mypy_cache/
+product-service/.pylint.d/
+product-service/.coverage
+product-service/.hypothesis/
+product-service/coverage.xml
+
+# === VSCode and Editor Configs ===
+.vscode/
+*.code-workspace
+
